@@ -4,8 +4,13 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="图床, Boy eleven">
-    <meta name="description" content="&amp;lt;!-- more --&amp;gt; 
+    <meta name="keywords" content="Markdown完全指南：从入门到精通, Boy eleven">
+    <meta name="description" content="-什么是Markdown？
+Markdown是一种轻量级标记语言，通过简单的语法实现格式排版。它的核心优势：
+
+📝 纯文本格式，兼容所有编辑器
+⚡ 快速转换为HTML/PDF等多种格式
+W🌐 被GitHub、Notion等主流平台支持
 ">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -18,7 +23,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>图床 | Boy eleven</title>
+    <title>Markdown完全指南：从入门到精通 | Boy eleven</title>
     <link rel="icon" type="image/png" href="/favicon.png">
     
     <style>
@@ -237,12 +242,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/3.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/5.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">图床</h1>
+                    <h1 class="description center-align post-title">Markdown完全指南：从入门到精通</h1>
                 </div>
             </div>
         </div>
@@ -266,8 +271,16 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E5%B7%A5%E5%85%B7/">
-                                <span class="chip bg-color">工具</span>
+                            <a href="/tags/Markdown/">
+                                <span class="chip bg-color">Markdown</span>
+                            </a>
+                        
+                            <a href="/tags/%E5%86%99%E4%BD%9C%E5%B7%A5%E5%85%B7/">
+                                <span class="chip bg-color">写作工具</span>
+                            </a>
+                        
+                            <a href="/tags/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/">
+                                <span class="chip bg-color">技术文档</span>
                             </a>
                         
                     </div>
@@ -278,8 +291,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E5%B7%A5%E5%85%B7/" class="post-category">
-                                工具
+                            <a href="/categories/markdown%E8%AF%AD%E6%B3%95/" class="post-category">
+                                markdown语法
                             </a>
                         
                     </div>
@@ -310,7 +323,91 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <pre class="line-numbers language-none"><code class="language-none">&lt;!-- more --&gt; <span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+                <h2 id="什么是Markdown？">-什么是Markdown？</h2>
+<p><strong>Markdown是一种轻量级标记语言，通过简单的语法实现格式排版。它的核心优势：</strong></p>
+<ul>
+<li>📝 纯文本格式，兼容所有编辑器</li>
+<li>⚡ 快速转换为HTML/PDF等多种格式</li>
+<li>W🌐 被GitHub、Notion等主流平台支持</li>
+</ul>
+<h2 id="基础语法速查表">基础语法速查表</h2>
+<h3 id="1-标题">1. 标题</h3>
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown"><span class="token title important"><span class="token punctuation">#</span> 一级标题</span>
+<span class="token title important"><span class="token punctuation">##</span> 二级标题</span>
+<span class="token title important"><span class="token punctuation">###</span> 三级标题</span>
+<span class="token title important"><span class="token punctuation">####</span> 四级标题</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="2-文本格式">2. 文本格式</h3>
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown"><span class="token italic"><span class="token punctuation">*</span><span class="token content">斜体</span><span class="token punctuation">*</span></span> 或 <span class="token italic"><span class="token punctuation">_</span><span class="token content">斜体</span><span class="token punctuation">_</span></span>
+<span class="token bold"><span class="token punctuation">**</span><span class="token content">粗体</span><span class="token punctuation">**</span></span> 或 <span class="token bold"><span class="token punctuation">__</span><span class="token content">粗体</span><span class="token punctuation">__</span></span>
+<span class="token bold"><span class="token punctuation">**</span><span class="token content"><span class="token italic"><span class="token punctuation">*</span><span class="token content">粗斜体</span><span class="token punctuation">*</span></span></span><span class="token punctuation">**</span></span> 或 <span class="token bold"><span class="token punctuation">__</span><span class="token content"><span class="token italic"><span class="token punctuation">_</span><span class="token content">粗斜体</span><span class="token punctuation">_</span></span></span><span class="token punctuation">__</span></span>
+<span class="token strike"><span class="token punctuation">~~</span><span class="token content">删除线</span><span class="token punctuation">~~</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="3-列表">3. 列表</h3>
+<p><strong>无序列表</strong>：</p>
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown"><span class="token list punctuation">-</span> 项目一
+<span class="token list punctuation">-</span> 项目二
+  <span class="token list punctuation">-</span> 子项目（缩进2空格）<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<p><strong>有序列表</strong>：</p>
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown"><span class="token list punctuation">1.</span> 第一项
+<span class="token list punctuation">2.</span> 第二项
+<span class="token list punctuation">3.</span> 第三项<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<h3 id="4-链接与图片">4. 链接与图片</h3>
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown"><span class="token url">[<span class="token content">链接文字</span>](<span class="token url">https://example.com</span>)</span>
+<span class="token url"><span class="token operator">!</span>[<span class="token content">图片描述</span>](<span class="token url">图片地址</span>)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<h3 id="5-代码块">5. 代码块</h3>
+<p>行内代码：<code>print(&quot;Hello World&quot;)</code></p>
+<p>多行代码：</p>
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown"><span class="token code"><span class="token punctuation">```</span><span class="token code-language">python</span>
+<span class="token code-block language-python">def hello():
+    print("Markdown真方便！")</span>
+<span class="token punctuation">```</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="6-引用">6. 引用</h3>
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown"><span class="token blockquote punctuation">></span> 这是引用内容
+<span class="token blockquote punctuation">></span> 多行引用<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<h2 id="进阶技巧">进阶技巧</h2>
+<h3 id="1-表格制作">1. 表格制作</h3>
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown"><span class="token table"><span class="token table-header-row"><span class="token punctuation">|</span><span class="token table-header important"> 左对齐 </span><span class="token punctuation">|</span><span class="token table-header important"> 居中对齐 </span><span class="token punctuation">|</span><span class="token table-header important"> 右对齐 </span><span class="token punctuation">|</span>
+</span><span class="token table-line"><span class="token punctuation">|</span> <span class="token punctuation">:-----</span> <span class="token punctuation">|</span> <span class="token punctuation">:------:</span> <span class="token punctuation">|</span> <span class="token punctuation">-----:</span> <span class="token punctuation">|</span>
+</span><span class="token table-data-rows"><span class="token punctuation">|</span><span class="token table-data"> 内容1  </span><span class="token punctuation">|</span><span class="token table-data">   内容2  </span><span class="token punctuation">|</span><span class="token table-data">   内容3 </span><span class="token punctuation">|</span>
+<span class="token punctuation">|</span><span class="token table-data"> 内容4  </span><span class="token punctuation">|</span><span class="token table-data">   内容5  </span><span class="token punctuation">|</span><span class="token table-data">   内容6 </span><span class="token punctuation">|</span></span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="2-任务列表">2. 任务列表</h3>
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown"><span class="token list punctuation">-</span> [x] 已完成任务
+<span class="token list punctuation">-</span> [ ] 待办事项<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<h3 id="3-注释写法">3. 注释写法</h3>
+<pre class="line-numbers language-none"><code class="language-none">&lt;!-- 这是隐藏的注释 --&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<h3 id="4-自动生成目录">4. 自动生成目录</h3>
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown">[TOC]  # 部分编辑器支持自动生成<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<h3 id="5-数学公式（需环境支持）">5. 数学公式（需环境支持）</h3>
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown">$$
+f(x) = \int_&#123;-\infty&#125;^\infty \hat f(\xi)\,e^&#123;2 \pi i \xi x&#125; \,d\xi
+$$<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<h2 id="最佳实践建议">最佳实践建议</h2>
+<ol>
+<li><strong>统一风格</strong>：选择一种符号风格（如用<code>-</code>代替<code>*</code>）</li>
+<li><strong>适度换行</strong>：段落间保持空行提升可读性</li>
+<li><strong>善用HTML</strong>：复杂排版可结合<code>&lt;div&gt;</code>等HTML标签</li>
+<li><strong>版本控制</strong>：搭配Git管理文档版本</li>
+<li><strong>实时预览</strong>：使用VS Code、Typora等支持实时预览的编辑器</li>
+</ol>
+<h2 id="应用场景推荐">应用场景推荐</h2>
+<p>✅ 技术文档写作<br>
+✅ 项目README文件<br>
+✅ 博客文章撰写<br>
+✅ 会议纪要整理<br>
+✅ 学术论文草稿</p>
+<h2 id="常见问题解答">常见问题解答</h2>
+<p>Q: 为什么我的列表无法正常显示？<br>
+A: 检查缩进是否使用空格（推荐2或4空格）</p>
+<p>Q: 如何实现首行缩进？<br>
+A: 使用全角空格 或CSS样式（需HTML支持）</p>
+<p>Q: 不同平台渲染效果不一致？<br>
+A: 建议使用标准语法，避免平台特有扩展</p>
+<hr>
+<p>📚 <strong>延伸阅读</strong>：</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://daringfireball.net/projects/markdown/">官方指南</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">Markdown Cheatsheet</a></li>
+</ul>
+<p>✍️ <strong>练习建议</strong>：在<a target="_blank" rel="noopener" href="https://stackedit.io/">StackEdit</a>在线编辑器实践所学语法</p>
 
                 
             </div>
@@ -337,7 +434,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://kkrng.github.io/2022/11/28/%E5%9B%BE%E5%BA%8A/">https://kkrng.github.io/2022/11/28/%E5%9B%BE%E5%BA%8A/</a>
+                    <a href="https://kkrng.github.io/2025/04/07/Markdown%E8%AF%AD%E6%B3%95%E6%95%99%E7%A8%8B/">https://kkrng.github.io/2025/04/07/Markdown%E8%AF%AD%E6%B3%95%E6%95%99%E7%A8%8B/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -375,8 +472,16 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E5%B7%A5%E5%85%B7/">
-                                    <span class="chip bg-color">工具</span>
+                                <a href="/tags/Markdown/">
+                                    <span class="chip bg-color">Markdown</span>
+                                </a>
+                            
+                                <a href="/tags/%E5%86%99%E4%BD%9C%E5%B7%A5%E5%85%B7/">
+                                    <span class="chip bg-color">写作工具</span>
+                                </a>
+                            
+                                <a href="/tags/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/">
+                                    <span class="chip bg-color">技术文档</span>
                                 </a>
                             
                         </div>
@@ -460,13 +565,13 @@
                 <i class="far fa-dot-circle"></i>&nbsp;本篇
             </div>
             <div class="card">
-                <a href="/2022/11/28/%E5%9B%BE%E5%BA%8A/">
+                <a href="/2025/04/07/Markdown%E8%AF%AD%E6%B3%95%E6%95%99%E7%A8%8B/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="图床">
+                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="Markdown完全指南：从入门到精通">
                         
-                        <span class="card-title">图床</span>
+                        <span class="card-title">Markdown完全指南：从入门到精通</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -477,14 +582,14 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-11-28
+                                <i class="far fa-clock fa-fw icon-date"></i>2025-04-07
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E5%B7%A5%E5%85%B7/" class="post-category">
-                                    工具
+                            <a href="/categories/markdown%E8%AF%AD%E6%B3%95/" class="post-category">
+                                    markdown语法
                                 </a>
                             
                             
@@ -495,8 +600,16 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E5%B7%A5%E5%85%B7/">
-                        <span class="chip bg-color">工具</span>
+                    <a href="/tags/Markdown/">
+                        <span class="chip bg-color">Markdown</span>
+                    </a>
+                    
+                    <a href="/tags/%E5%86%99%E4%BD%9C%E5%B7%A5%E5%85%B7/">
+                        <span class="chip bg-color">写作工具</span>
+                    </a>
+                    
+                    <a href="/tags/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/">
+                        <span class="chip bg-color">技术文档</span>
                     </a>
                     
                 </div>
@@ -507,16 +620,16 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+                本篇&nbsp;<i class="far fa-dot-circle"></i>
             </div>
             <div class="card">
-                <a href="/2022/11/28/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">
+                <a href="/2025/04/07/Markdown%E8%AF%AD%E6%B3%95%E6%95%99%E7%A8%8B/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="个人博客搭建">
+                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="Markdown完全指南：从入门到精通">
                         
-                        <span class="card-title">个人博客搭建</span>
+                        <span class="card-title">Markdown完全指南：从入门到精通</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -527,25 +640,34 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-11-28
+                                <i class="far fa-clock fa-fw icon-date"></i>2025-04-07
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" class="post-category">
-                                    个人博客
+                            <a href="/categories/markdown%E8%AF%AD%E6%B3%95/" class="post-category">
+                                    markdown语法
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">
-                        <span class="chip bg-color">个人博客</span>
+                    <a href="/tags/Markdown/">
+                        <span class="chip bg-color">Markdown</span>
+                    </a>
+                    
+                    <a href="/tags/%E5%86%99%E4%BD%9C%E5%B7%A5%E5%85%B7/">
+                        <span class="chip bg-color">写作工具</span>
+                    </a>
+                    
+                    <a href="/tags/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/">
+                        <span class="chip bg-color">技术文档</span>
                     </a>
                     
                 </div>
@@ -632,12 +754,6 @@
 
 <!-- TOC 悬浮按钮. -->
 
-<div id="floating-toc-btn" class="hide-on-med-and-down">
-    <a class="btn-floating btn-large bg-color">
-        <i class="fas fa-list-ul"></i>
-    </a>
-</div>
-
 
 <script src="/libs/tocbot/tocbot.min.js"></script>
 <script>
@@ -663,41 +779,6 @@
             }
         });
 
-        
-        /* 修复文章卡片 div 的宽度. */
-        let fixPostCardWidth = function (srcId, targetId) {
-            let srcDiv = $('#' + srcId);
-            if (srcDiv.length === 0) {
-                return;
-            }
-
-            let w = srcDiv.width();
-            if (w >= 450) {
-                w = w + 21;
-            } else if (w >= 350 && w < 450) {
-                w = w + 18;
-            } else if (w >= 300 && w < 350) {
-                w = w + 16;
-            } else {
-                w = w + 14;
-            }
-            $('#' + targetId).width(w);
-        };
-
-        // 切换TOC目录展开收缩的相关操作.
-        const expandedClass = 'expanded';
-        let $tocAside = $('#toc-aside');
-        let $mainContent = $('#main-content');
-        $('#floating-toc-btn .btn-floating').click(function () {
-            if ($tocAside.hasClass(expandedClass)) {
-                $tocAside.removeClass(expandedClass).hide();
-                $mainContent.removeClass('l9');
-            } else {
-                $tocAside.addClass(expandedClass).show();
-                $mainContent.addClass('l9');
-            }
-            fixPostCardWidth('artDetail', 'prenext-posts');
-        });
         
     });
 </script>

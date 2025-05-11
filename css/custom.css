@@ -1,0 +1,5 @@
+/* 隐藏所有标题的锚点链接 */
+.headerlink,
+.anchor-link {
+  display: none !important;
+}
